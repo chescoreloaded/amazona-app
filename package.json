@@ -1,0 +1,27 @@
+{
+  "name": "amazona",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node  backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chescoreloaded/amazona-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chescoreloaded/amazona-app/issues"
+  },
+  "homepage": "https://github.com/chescoreloaded/amazona-app#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
